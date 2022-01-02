@@ -105,7 +105,7 @@ function handleKeydown(event) {
             for(let i = 0; i < highlight.length; i++) {
                 const item = highlight[i];
 
-                const { path  , meta   } = item;
+                const { path, meta } = item;
                 const { anchor, length } = meta;
 
                 const dom = document.querySelector(path);

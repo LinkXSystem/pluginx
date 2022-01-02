@@ -1,0 +1,21 @@
+{
+  "name": "pluginx",
+  "version": "1.0.0",
+  "description": "the plugin project",
+  "main": "injection.js",
+  "scripts": {
+    "build": "node esbuild.build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LinkXSystem/pluginx.git"
+  },
+  "author": "zhi",
+  "bugs": {
+    "url": "https://github.com/LinkXSystem/pluginx/issues"
+  },
+  "homepage": "https://github.com/LinkXSystem/pluginx#readme",
+  "devDependencies": {
+    "esbuild": "^0.14.10"
+  }
+}

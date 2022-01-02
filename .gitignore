@@ -1,0 +1,4 @@
+# ignore the node project's files
+
+node_modules
+package-lock.json
