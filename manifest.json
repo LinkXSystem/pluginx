@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "name": "PluginX",
+    "version": "0.0.1",
+    "description": "用于标记网页内容的插件",
+    "icons": {
+        "16" : "images/icon.png",
+        "32" : "images/icon.png",
+        "48" : "images/icon.png",
+        "128": "images/icon.png"
+    },
+    "action": {
+        "default_icon": "images/icon.png",
+        "default_title": "标记内容",
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "js": [
+                "injection.js"
+            ],
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "run_at": "document_start"
+        }
+    ],
+    "permissions": [
+        "contextMenus",
+        "tabs"
+    ]
+}
